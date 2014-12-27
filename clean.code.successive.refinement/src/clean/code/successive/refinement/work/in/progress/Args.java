@@ -35,6 +35,8 @@ public class Args {
 		try {
 			parseArguments();
 		} catch (ArgsException e) {
+			
+			
 		}
 		return valid;
 	}
