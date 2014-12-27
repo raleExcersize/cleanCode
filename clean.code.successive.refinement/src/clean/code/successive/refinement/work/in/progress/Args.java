@@ -32,12 +32,9 @@ public class Args {
 		if (schema.length() == 0 && args.length == 0)
 			return true;
 		parseSchema();
-		// jos jedan komentar
-		
 		try {
 			parseArguments();
 		} catch (ArgsException e) {
-			// TODO: handle exception
 		}
 		return valid;
 	}
