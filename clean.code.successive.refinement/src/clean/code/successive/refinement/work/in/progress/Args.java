@@ -14,7 +14,7 @@ public class Args {
 	private Map<Character, ArgumentMarshaler> marshalers = new HashMap<Character, ArgumentMarshaler>();
 	private Set<Character> argsFound = new HashSet<Character>();
 	private int currentArgument;
-	private char errorArgument = '\0';
+	private char errorArgument = '\0'; //AAAA
 
 	enum ErrorCode {
 		OK, MISSING_STRING, MISSING_INTEGER, INVALID_INTEGER, MISSING_DOUBLE, INVALID_DOUBLE
