@@ -1,0 +1,18 @@
+package clean.code.successive.refinement.only.bln;
+
+public class Args {
+	
+	private String schema;
+	private String[] args;
+	private boolean valid;
+	private Set<Character> unexpectedArguments = new TreeSet<Character>();
+	private Map<Character, Boolean> booleanArgs =
+	new HashMap<Character, Boolean>();
+	private int numberOfArguments = 0;
+	public Args(String schema, String[] args) {
+	this.schema = schema;
+	this.args = args;
+	valid = parse();
+	}
+	
+}

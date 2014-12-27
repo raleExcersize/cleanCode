@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="clean.code.successive.refinement.first.draft.Args.ArgsException"/>
+<fullyQualifiedTypeName name="clean.code.successive.refinement.work.in.progress.Args.StringArgumentMarshaler"/>
+<fullyQualifiedTypeName name="clean.code.successive.refinement.work.in.progress.Args.ArgumentMarshaler"/>
+<fullyQualifiedTypeName name="clean.code.successive.refinement.work.in.progress.Args.IntegerArgumentMarshaler"/>
+<fullyQualifiedTypeName name="clean.code.successive.refinement.work.in.progress.Args.BooleanArgumentMarshaler"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="clean.code.successive.refinement.first.draft.ArgsException"/>
+<fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+</qualifiedTypeNameHistroy>
