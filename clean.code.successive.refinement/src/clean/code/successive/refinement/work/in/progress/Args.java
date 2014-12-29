@@ -15,7 +15,7 @@ public class Args {
 	private Set<Character> argsFound = new HashSet<Character>();
 	private int currentArgument;
 	private char errorArgument = '\0';
-        private int test;
+	private int test; // lets make a conflict
 
 	enum ErrorCode {
 		OK, MISSING_STRING, MISSING_INTEGER, INVALID_INTEGER, MISSING_DOUBLE, INVALID_DOUBLE
