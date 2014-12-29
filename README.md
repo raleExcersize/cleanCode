@@ -1,4 +1,4 @@
 cleanCode
 =========
 
-clean code excersize
+clean code exercise
