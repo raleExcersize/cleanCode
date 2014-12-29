@@ -98,6 +98,9 @@ public class ArgsException extends Exception {
                         errorArgumentId, errorParameter);
             case INVALID_ARGUMENT_NAME:
                 return String.format(
+                        "Argument: %c has invalid name.", errorArgumentId);
+            case INVALID_ARGUMENT_FORMAT:
+                return String.format(
                         "Argument: %c has invalid format.", errorArgumentId);
         }
         return "";
